@@ -1168,14 +1168,13 @@ void split()
 }
 void zibian()
 {
-	
+	/*
 ////////////////////////自编动作一	
-
 {
   Action_write(1,456,300);
 	Action_write(2,705,300);			
 	Action_write(3,333,300);  //张开手
-	Action_write(7,546,300);
+	Action_write(7,555,300);////////old_pos:546
 	Action_write(8,901,300);			
 	Action_write(9,527,300);
 	Action_write(10,529,300);			
@@ -1187,9 +1186,14 @@ void zibian()
 	Action_write(7,600,160);
 	Action_write(8,916,160);
 	delay_ms(1000);
-	delay_ms(200);
+	delay_ms(600);
 	
-	Action_write(9,458,80);			//抬腿
+	
+	
+///////////////////////
+	Action_write(8,900,160);///////old_pos:916
+//////////////////////
+	Action_write(9,458,60);			//抬腿
 	Action_write(10,1018,160);
 	Action();
 	delay_ms(1000);
@@ -1202,13 +1206,14 @@ void zibian()
 	Action();
 	delay_ms(800);
 	
+	
 	Action_write(1,395,250);
 	Action_write(4,299,350);
   Action_write(9,642,200);
 	Action();
 	delay_ms(800);
 	
-	Action_write(1,607,250);   /挥手
+	Action_write(1,607,250);   //挥手
 	Action_write(4,671,250);
 	Action_write(9,458,200);
 	Action();
@@ -1235,23 +1240,15 @@ void zibian()
 	Action_write(8,858,200); 
 	Action();
 	delay_ms(1000);
-	
-	
-	
 
-	Action_write(5,485,250);   /站立
+	Action_write(5,485,250);   //站立
 	Action_write(6,487,250);
 	Action();
-	delay_ms(1000);
-	
+	delay_ms(1000);	
 }
 
-
-
-
-
 /////////////////自编动作二
-/*
+
 
 {
   Action_write(1,510,300);  //2
@@ -1376,13 +1373,16 @@ void zibian()
 }
 	
 	
-	*/
+	
 	
 	
 
 
 //////////自编动作三
-/*
+*/
+
+
+
 {
 	Action_write(1,753,300);        //3
 	Action_write(2,663,400);
@@ -1415,12 +1415,18 @@ void zibian()
   
 	Action_write(2,551,300);
 	Action_write(3,209,300);
-	Action_write(4,240,300);
-	Action_write(7,368,350);      //单手撑
+	Action_write(4,240,350);  //单手撑
+	Action_write(7,368,200);
   Action_write(10,884,400);
 	Action();
-	delay_ms(1000);					
-  delay_ms(500);	
+	delay_ms(700);					
+  
+	
+	Action_write(7,497,200);
+	Action_write(8,856,200);
+	Action();
+	delay_ms(300);
+	
  
   Action_write(1,455,200);
 	Action_write(2,223,200);	
@@ -1459,7 +1465,7 @@ void zibian()
 	Action_write(10,500,200);
 	Action();
 	delay_ms(1000);		
-
+/*
   Action_write(2,639,200);
 	Action_write(3,236,200);
 	Action_write(4,342,30);
@@ -1490,10 +1496,12 @@ void zibian()
 	Action_write(9,466,300);			
 	Action_write(10,500,300);
 	Action();
-	
+	*/
 }
 
-	*/
+	
+
+
 	delay_ms(1000);
 	delay_ms(1000);
 	delay_ms(1000);

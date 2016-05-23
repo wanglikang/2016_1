@@ -25,13 +25,13 @@ int main(void)
 	while(1)
 	{
 				 delay_ms(1000); 
-				 stand();
+				 stand();			
 				 delay_ms(500);
 //  
 //		bow();
 //		wave();
 //		
-//			before_toss();						//	
+			before_toss();						//	
 //			behind_toss();						//Ç°ºó¹ö·­		
 
 //		left_push_up();						//

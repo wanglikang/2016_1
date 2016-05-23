@@ -1385,6 +1385,9 @@ void zibian()
 
 
 {
+
+
+
 	Action_write(1,753,300);        //3
 	Action_write(2,663,400);
 	Action_write(3,438,350);
@@ -1413,36 +1416,40 @@ void zibian()
 	Action();
 	delay_ms(1000);	
 	
-  
-	Action_write(2,551,300);
+	
 	Action_write(3,209,300);
 	Action_write(4,240,350); 			 //单手撑
 	Action_write(7,400,250);
-  Action_write(10,884,400);
+  Action_write(10,884,300);////ols_speed:400
 	Action();
 	delay_ms(700);					
-  
+	
+
+
 	
 	Action_write(7,497,200);				//为了连贯
 	Action_write(8,856,200);
 	Action();
 	delay_ms(300);
 	
+
+
  
   Action_write(1,455,200);
-	Action_write(2,223,200);	
+	Action_write(2,250,200);			//old_pos:223
 	Action_write(7,497,200);			  //单手倒立 
 	Action_write(8,856,200);
 	Action_write(9,466,200);			
 	Action_write(10,500,200);
 	Action();
 	delay_ms(1000);
-	delay_ms(1000);	
-	delay_ms(1000);	
+	delay_ms(1000);
 	
-
-
-  Action_write(2,324,200);					//摆手and腿
+	
+	
+	
+	
+	Action_write(2,324,200);					//摆手and腿
 	Action_write(8,723,200);
 	Action_write(10,610,200);
 	Action();
@@ -1453,8 +1460,8 @@ void zibian()
 	Action_write(10,500,200);
 	Action();
 	delay_ms(1000);			
-/*	
 	
+
   Action_write(2,324,200);					//摆手and腿
 	Action_write(8,723,200);
 	Action_write(10,609,200);
@@ -1490,10 +1497,14 @@ void zibian()
 	delay_ms(1000);	
 	delay_ms(500);	
 	
+	
+	/*
+	
+	
 	Action_write(1,510,300);
 	Action_write(2,230,300);
 	Action_write(3,523,300);
-	Action_write(4,553,300);
+	Action_write(4,5583,300);
   Action_write(8,602,300);
 	Action();
 	delay_ms(1000);	
@@ -1510,7 +1521,7 @@ void zibian()
 	Action_write(9,466,300);			
 	Action_write(10,500,300);
 	Action();
-	*/
+*/
 }
 
 	delay_ms(1000);

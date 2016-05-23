@@ -1168,6 +1168,7 @@ void split()
 }
 void zibian()
 {
+	
 	/*
 ////////////////////////自编动作一	
 {
@@ -1405,7 +1406,7 @@ void zibian()
 	delay_ms(800);
    
 	Action_write(1,558,300);
-	Action_write(2,519,300);
+	Action_write(2,519,300);				//侧翻
 	Action_write(3,305,300);
 	Action_write(4,268,300);
 	Action_write(8,410,300);
@@ -1415,14 +1416,14 @@ void zibian()
   
 	Action_write(2,551,300);
 	Action_write(3,209,300);
-	Action_write(4,240,350);  //单手撑
-	Action_write(7,368,200);
+	Action_write(4,240,350); 			 //单手撑
+	Action_write(7,400,250);
   Action_write(10,884,400);
 	Action();
 	delay_ms(700);					
   
 	
-	Action_write(7,497,200);
+	Action_write(7,497,200);				//为了连贯
 	Action_write(8,856,200);
 	Action();
 	delay_ms(300);
@@ -1452,7 +1453,7 @@ void zibian()
 	Action_write(10,500,200);
 	Action();
 	delay_ms(1000);			
-	
+/*	
 	
   Action_write(2,324,200);					//摆手and腿
 	Action_write(8,723,200);
@@ -1465,7 +1466,20 @@ void zibian()
 	Action_write(10,500,200);
 	Action();
 	delay_ms(1000);		
-/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   Action_write(2,639,200);
 	Action_write(3,236,200);
 	Action_write(4,342,30);
@@ -1498,9 +1512,6 @@ void zibian()
 	Action();
 	*/
 }
-
-	
-
 
 	delay_ms(1000);
 	delay_ms(1000);
@@ -1953,7 +1964,7 @@ void my_zibian()
 	}
 	
 
-	void daoli()
+void daoli()
 {
 	
 	Action_write(1,490,400);							   //先支撑着

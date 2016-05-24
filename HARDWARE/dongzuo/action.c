@@ -321,15 +321,19 @@ void behind_toss()
 	delay_ms(600);
 
 
-  Action_write(6,168,200);
+  Action_write(6,168,150);						//后滚翻双腿落下，不稳，，，增加延时并且减小6号舵机速度，，情况有所改善，，但，，延时过长6号舵机会颤
 	Action();
 	delay_ms(1000);
+	delay_ms(550);
 	
 	
+	
+/////////////////////////	
 //	Action_write(1,659,300);									
 //	Action_write(2,439,300);				    //下腿
 //	Action_write(3,462,300);		
 //	Action_write(4,387,300);	
+////////////////////
 	Action_write(5,318,75);//////////old_speed:75			
 	Action();
 	delay_ms(1000);
@@ -387,11 +391,11 @@ void right_push_up()
 	delay_ms(1000);
 	delay_ms(200);
 
-	Action_write(1,367,300);						//tiaozheng chengdi	   
+	Action_write(1,367,300);						//调整 撑地
 	Action_write(2,169,250);
 	Action_write(3,699,250);
 	Action_write(4,510,300);
-	Action_write(5,717,300);		
+	Action_write(5,717,300);		//																																																					ols_pos:717->头760,,,部略上扬，，使右手撑地稳（看起来美观）
 	Action_write(6,431,300);
 	Action_write(7,496,300);
 	Action_write(8,856,300);
@@ -404,14 +408,19 @@ void right_push_up()
 					 
 	Action_write(3,254,300);		//背手
 	Action_write(4,269,500);
+	
+	Action_write(7,497,200);				/////////////
+	Action_write(8,856,200);				//////////////
+	Action_write(9,466,200);			  ////////使双腿伸直
+	Action_write(10,500,200);				///////////
 	Action();						
 	delay_ms(1000);
   delay_ms(600);
 
-	                     
+
 	Action_write(1,183,400);
 	Action_write(2,279,200);		//下去
-	Action();	
+ 	Action();	
   delay_ms(600);	
 	
 
@@ -737,7 +746,7 @@ void left_turn()										 //左侧翻终于翻过去了
 
 	delay_ms(1000);
 	delay_ms(1000); 
-	delay_ms(1000); 
+	
 
 
 }
@@ -1059,6 +1068,7 @@ void split()
 	delay_ms(1000);
 	Action_write(7,485,350);
 	Action_write(8,532,300);			
+	Action_write(9,466,300);
 	Action_write(10,820,300);
 	Action();						
 	delay_ms(1000);
@@ -1169,7 +1179,7 @@ void split()
 void zibian()
 {
 	
-	/*
+	
 ////////////////////////自编动作一	
 {
   Action_write(1,456,300);
@@ -1248,9 +1258,9 @@ void zibian()
 	delay_ms(1000);	
 }
 
+
+
 /////////////////自编动作二
-
-
 {
   Action_write(1,510,300);  //2
 	Action_write(2,428,300);		 
@@ -1373,17 +1383,10 @@ void zibian()
 	delay_ms(1000);
 }
 	
-	
-	
-	
-	
+
 
 
 //////////自编动作三
-*/
-
-
-
 {
 
 
@@ -1422,7 +1425,7 @@ void zibian()
 	Action_write(7,400,250);
   Action_write(10,884,300);////ols_speed:400
 	Action();
-	delay_ms(700);					
+	delay_ms(1000);					//延长延时时间speed:700->1000	;为了防止单手撑时晃动而倒
 	
 
 
@@ -1498,9 +1501,6 @@ void zibian()
 	delay_ms(500);	
 	
 	
-	/*
-	
-	
 	Action_write(1,510,300);
 	Action_write(2,230,300);
 	Action_write(3,523,300);
@@ -1521,7 +1521,8 @@ void zibian()
 	Action_write(9,466,300);			
 	Action_write(10,500,300);
 	Action();
-*/
+
+
 }
 
 	delay_ms(1000);

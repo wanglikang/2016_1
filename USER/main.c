@@ -24,27 +24,28 @@ int main(void)
 //	while(key0==1) ;
 	while(1)
 	{
-				 delay_ms(1000); 
-				 stand();			
-				 delay_ms(500);
+			delay_ms(1000); 
+			stand();			
+			delay_ms(500);
+		stand();			
 //  
 //		bow();
 //		wave();
 //		
-			before_toss();						//	
-//			behind_toss();						//前后滚翻		
+//		before_toss();						//	
+//		behind_toss();						//前后滚翻		
 
 //		left_push_up();						//
-//	  right_push_up();					//		 
+//		right_push_up();					//		 
 //		push_up();								//双手俯卧撑
 //		
 //		left_turn();							//侧身翻
 //		right_turn();	
 //		
 //		stand_on_head();					//倒立并腿
-//		split();									//倒立劈叉	
-		zibian();									//自编动作
-		//bow();
+		split();									//倒立劈叉	
+//		zibian();									//自编动作
+//		bow();
 		
 		//my_zibian();
 		while(1)

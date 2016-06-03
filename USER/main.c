@@ -27,13 +27,12 @@ int main(void)
 			delay_ms(1000); 
 			stand();			
 			delay_ms(500);
-		stand();			
-//  
+
 //		bow();
 //		wave();
 //		
-//		before_toss();						//	
-//		behind_toss();						//前后滚翻		
+//	before_toss();						//						//回腰不稳，下去，稳，落下，特别稳
+	behind_toss();						//前后滚翻		//下去,上来，特别稳，，，，起来，砸地
 
 //		left_push_up();						//
 //		right_push_up();					//		 
@@ -41,13 +40,15 @@ int main(void)
 //		
 //		left_turn();							//侧身翻
 //		right_turn();	
-//		
+//	
 //		stand_on_head();					//倒立并腿
-		split();									//倒立劈叉	
+//		split();									//倒立劈叉	
 //		zibian();									//自编动作
 //		bow();
+//		
 		
-		//my_zibian();
+		
+//		my_zibian_3();
 		while(1)
 			;
 	
